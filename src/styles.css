@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Georgia', serif;
+    background-color: #fdf0d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope {
+    background: #f4d8b4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 90%;
+}
+
+.carta {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    color: #333;
+}
+
+h1 {
+    font-family: 'Cursive', 'Lucida Handwriting', cursive;
+    color: #b5651d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 15px 0;
+    text-indent: 40px;
+}
+
+.galeria {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.galeria h2 {
+    font-family: 'Cursive', 'Lucida Handwriting', cursive;
+    color: #b5651d;
+    margin-bottom: 15px;
+}
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.imagens img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #f4d8b4;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+
+    .mensagem-container {
+        text-align: center; /* Centraliza o texto dentro da div */
+        margin-top: 20px; /* Espaço acima da div */
+    }
+    
+    #btn-revelar {
+        background-color: #b5651d; /* Cor de fundo do botão */
+        color: white; /* Cor do texto do botão */
+        border: none; /* Remove a borda do botão */
+        padding: 10px 20px; /* Espaçamento interno do botão */
+        border-radius: 8px; /* Bordas arredondadas */
+        cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+        transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+    }
+    
+    #btn-revelar:hover {
+        background-color: #a0522d; /* Cor do botão ao passar o mouse */
+    }
+    }
